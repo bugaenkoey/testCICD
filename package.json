@@ -1,0 +1,22 @@
+{
+  "name": "testcicd",
+  "version": "1.0.0",
+  "description": "Test CI/CD ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "node --env-file=.env app.js",
+    "test": "mocha test/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.10"
+  },
+  "author": "bevgen77@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.7.2",
+    "supertest": "^7.1.4"
+  }
+}
